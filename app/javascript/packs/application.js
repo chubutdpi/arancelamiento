@@ -8,6 +8,10 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
+
+//BOOTSTRAP
+import 'packs/bootstrap.bundle.min'
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
